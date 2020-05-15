@@ -6,7 +6,7 @@ A continuación se expone el código comentado del Ejercicio 12.1 de las página
 El ejercicio  expone un ejemplo de uso del **método de la multiplicación** bajo el tema **Tablas de dispersión, funciones hash**.
 
 ### TL;DR
-En este enlace podés probar el algoritmo desde tu navegador: [https://edjava-121.waltermolina.repl.run/](https://edjava-121.waltermolina.repl.run/)
+En este enlace podés probar el algoritmo desde tu navegador: [https://edjava-121.waltermolina.repl.run/](https://edjava-121.waltermolina.repl.run/)(puede tardar en cargar, si no funciona puedes abrir directamente el enlace del Repl.it).
 Si querés ver el código comentado podes acceder a este [Repl.it](https://repl.it/@waltermolina/edJava-121) o ir directamente al archivo [DispersionHash.java](https://github.com/waltermolina/estructurasDatosJava/blob/master/Ejercicio%2012.1/DispersionHash.java) de este repositorio.
 
 ### Enunciado
