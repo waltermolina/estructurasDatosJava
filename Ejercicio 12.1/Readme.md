@@ -1,6 +1,6 @@
 # Ejercicio 12.1 
 
-A continuación se expone el código comentado del Ejercicio 12.1 de las páginas 348 y 349 del Libro Estructuras de Datos en Java .
+A continuación se expone el código comentado del Ejercicio 12.1 de las páginas 348 y 349 del Libro Estructuras de Datos en Java.
 
 ## Acerca del ejercicio
 El ejercicio  expone un ejemplo de uso del **método de la multiplicación** bajo el tema **Tablas de dispersión, funciones hash**.
