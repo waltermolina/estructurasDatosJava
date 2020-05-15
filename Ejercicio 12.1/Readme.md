@@ -7,7 +7,7 @@ El ejercicio  expone un ejemplo de uso del **método de la multiplicación** baj
 
 ### TL;DR
 En este enlace podés probar el algoritmo desde tu navegador: [https://edjava-121.waltermolina.repl.run/](https://edjava-121.waltermolina.repl.run/)
-Si querés ver el código comentado podes acceder a este [Repl.it](https://repl.it/@waltermolina/edJava-121) o ir directamente al archivo [DispersionHash.java](https://github.com/waltermolina/estructurasDatosJava/blob/master/DispersionHash.java) de este repositorio.
+Si querés ver el código comentado podes acceder a este [Repl.it](https://repl.it/@waltermolina/edJava-121) o ir directamente al archivo [DispersionHash.java](https://github.com/waltermolina/estructurasDatosJava/blob/master/Ejercicio%2012.1/DispersionHash.java) de este repositorio.
 
 ### Enunciado
 
@@ -15,7 +15,7 @@ Si querés ver el código comentado podes acceder a este [Repl.it](https://repl.
 
 
 #### **Paso 1**
-Para generar la dispersión haciendo uso del método, necesitamos transformar nuestra clave (recordemos que es una cadena de hasta 10 caracteres) en un número entero. Hacemos uso del método [`transformaClave()`](https://github.com/waltermolina/estructurasDatosJava/blob/master/DispersionHash.java).
+Para generar la dispersión haciendo uso del método, necesitamos transformar nuestra clave (recordemos que es una cadena de hasta 10 caracteres) en un número entero. Hacemos uso del método [`transformaClave()`](https://github.com/waltermolina/estructurasDatosJava/blob/master/Ejercicio%2012.1/DispersionHash.java).
 Este método *recorre* el String **clave** c*aracter a caracter desde la* posición de la primera letra (*posición 0*) *hasta la última letra* (o hasta la décima letra, la que encuentre primero).
 
 ```java
@@ -47,7 +47,7 @@ d = d * 27 + (int)clave.charAt(j);
 
 
 #### **Paso 2**
-Una vez hecha la transformación, se aplica el método de la multiplicación haciendo uso del método  [`dispersion()`](https://github.com/waltermolina/estructurasDatosJava/blob/master/DispersionHash.java).
+Una vez hecha la transformación, se aplica el método de la multiplicación haciendo uso del método  [`dispersion()`](https://github.com/waltermolina/estructurasDatosJava/blob/master/Ejercicio%2012.1/DispersionHash.java).
 
 Este método es bastante simple. Recibe en `x` el valor entero de la clave ingresada por el usuario (calculada en el Paso 1).
 
