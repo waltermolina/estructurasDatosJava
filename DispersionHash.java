@@ -19,7 +19,7 @@ class DispersionHash {
   static final double R = 0.618034;
 
   /**
-   * Convierte la clase en un número entero
+   * Convierte la clave en un número entero
    * @param   clave   la clave a transformar
    * @return          valor entero de la clave 
    */
