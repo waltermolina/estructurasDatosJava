@@ -77,8 +77,6 @@ v = (int) (M * t);
 
 Es importante notar que el resultado de la multiplicación será de tipo `double`, porque es el tipo de la variable `t`. Para poder guardarlo en `v`, debemos hacer el casting manual usando `(int)`.
 
-Así, por ejemplo, la cadena ‘RIO’ se transforma en:
-
 En nuestro algoritmo, disponemos de un método main para poder probar el resultado del ejercicio. El método main simplemente cumple con la condición de  "*mostrar 10 direcciones dispersas*".
 
 ```java
