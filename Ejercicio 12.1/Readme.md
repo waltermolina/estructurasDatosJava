@@ -3,21 +3,21 @@
 
 A continuación se expone el código comentado del Ejercicio 12.1 de las páginas 348 y 349 del Libro Estructuras de Datos en Java.
 
-## Acerca del ejercicio
+## ❗ Acerca del ejercicio
 El ejercicio  expone un ejemplo de uso del **método de la multiplicación** bajo el tema **Tablas de dispersión, funciones hash**.
 
 ### TL;DR
 En este enlace podés probar el algoritmo desde tu navegador: [https://edjava-121.waltermolina.repl.run/](https://edjava-121.waltermolina.repl.run/)(puede tardar en cargar, si no funciona puedes abrir directamente el enlace del código).
 Para ver el código comentado podes acceder a este [Repl.it](https://repl.it/@waltermolina/edJava-121) o ir directamente al archivo [DispersionHash.java](https://github.com/waltermolina/estructurasDatosJava/blob/master/Ejercicio%2012.1/DispersionHash.java) de este repositorio en Github.
 
-## Enunciado
+## 🪧 Enunciado
 
 > *Los **registros** que representan los **objetos de una perfumería** se van a **guardar en una tabla dispersa** de m = 1.024 posiciones.
 > El campo **clave** es una **cadena de caracteres**, de la que se toman únicamente los 10 primeros.
 > Se decide aplicar el método de la multiplicación como función de dispersión.
 > Con este supuesto, **codificar la función de dispersión** y mostrar **10 direcciones dispersas**.*
 
-## Resolución
+## 📝 Resolución
 #### **Paso 1**
 Para generar la dispersión haciendo uso del método de la multiplicación, necesitamos transformar nuestra clave (recordemos que es una cadena de hasta 10 caracteres) en un número entero. Entonces, hacemos uso del método [`transformaClave()`](https://github.com/waltermolina/estructurasDatosJava/blob/master/Ejercicio%2012.1/DispersionHash.java).
 
@@ -82,7 +82,7 @@ v = (int) (M * t);
 
 Es importante notar que el resultado de la multiplicación será de tipo `double`, porque es el tipo de la variable `t`. Para poder guardarlo en `v`, debemos hacer el casting manual usando `(int)`.
 
-## Prueba del algoritmo
+## 💻 Prueba del algoritmo
 En nuestro algoritmo, disponemos de un método `main` para poder probar el resultado del ejercicio. El método `main` simplemente cumple con la condición de  "*mostrar 10 direcciones dispersas*".
 
 ```java
